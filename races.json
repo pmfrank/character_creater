@@ -1,0 +1,55 @@
+{"races": {"dwarf": {
+            "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountians, the echoing of picks and hammers in deep mines and blazing forges, and a commitment to clan and tradition--these common threads unite all dwarves",
+            "traits": {
+                "ability score increase": "constitution 2",
+                "alignement": "lawful good",
+                "size": "m",
+                "speed": 25,
+                "darkvision": 60,
+                "dwarven resilience": "",
+                "dwarven combat training": ["battleaxe","handaxe","light hammer","warhammer"],
+                "tool proficiency": ["smith's tools","brewer's supplies","mason's tools"],
+                "stonecutting": "",
+                "languages": ["common","dwarvish"],
+                "subrace": {
+                    "hill dwarf": {
+                        "traits": {
+                            "ability score increase": "wisdom 1",
+                            "dwarven tougness": "hit_points 1"
+                        }
+                    },
+                    "mountian dwarf": {
+                        "traits": {
+                            "ability score increase": "strength 2",
+                            "dwarven armor training": ["light armor","medium armor"]
+                        }
+                    }
+                }
+            }
+        },
+        "elf": {
+            "description": "A people of otherworldly grace, elves dwell in places of ethereal beauty, in the midst of ancient forests or in spires glittening with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze.",
+            "traits": {
+                "ability score increase": "dexterity 2",
+                "subrace": {
+                    "high elf": {
+                        "traits": {
+                            "ability score increase": "intelligence 1",
+                            "elf weapon training": ["longsword","shortsword","shortbow","longbow"],
+                            "cantrip": "1 Wizard Cantrip",
+                            "extra language": "1 extra language"
+                        },
+                    "wood elf": {
+                        "traits": {
+                            "ability score increase": "wisdom 1",
+                            "elf weapon training": ["longsword","shortsword","shortbow","longbow"],
+                            "fleet of foot": "movement 35",
+                            "mask of the wild": "You can attempt to hid even when you only lightly obsucred by foliage, heavy rain, falling snow, mist, or other natural phenomena."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

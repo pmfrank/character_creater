@@ -1,0 +1,1 @@
+DATABASE = 'character_creater.db'

@@ -144,3 +144,5 @@ static
 
 # VS Code environment files
 .vscode/
+qtdesigner
+*.ui
